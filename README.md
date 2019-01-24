@@ -1,3 +1,10 @@
+#Company
+SnippetBucket Technolgoies
+
+Enable QA testing and support for confluence.
+Allow integration of ERP with Confluence with nodejs, python.
+
+
 # Introduction
 installer script to install Confluence in Centos 7 with postgresql database and reverse proxy ssl setup.
 It installs:
