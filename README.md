@@ -34,3 +34,27 @@ Create a new Centos7 (minimal installation will do) installation. Login with `ro
 Few questions will be asked about the details of the installation. The only one that you need to change is the password for the confluence database user. The rest can be left as default values (just press Enter).
 
 Thats it!!! the script will take care of the rest of the installation.
+
+
+# tips
+
+SnippetBucket.com advice for developer to disable firwall.
+
+systemctl disable firewalld
+systemctl stop firewalld
+systemctl status firewalld
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
