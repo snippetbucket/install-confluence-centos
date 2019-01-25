@@ -1,3 +1,5 @@
+<img src="https://www.snippetbucket.com/wp-content/uploads/2019/01/Screenshot-from-2019-01-02-14-53-23.png" width="100%" />
+
 # Company
 SnippetBucket Technolgoies
 
