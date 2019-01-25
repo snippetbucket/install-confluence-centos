@@ -1,0 +1,295 @@
+{
+	"id": "39953387-3711-f272-1ab4-3da1c21b3f0c",
+	"name": "Confluence",
+	"description": "",
+	"order": [
+		"fb6b35e4-4168-0f92-75d6-2a04113b755f",
+		"53f9e44a-1eb6-3e23-9f3b-d1e4a6c5c30d",
+		"60e22a64-dc2f-a1dc-af08-b8c3e581da12",
+		"6f08c5a7-47e5-cf42-5304-aed6b920e99a",
+		"8cd10775-0a75-43e1-fb8f-406c6ed18fd3",
+		"503618ca-af43-4cbb-fd34-ceea80aa80ca",
+		"6e0a2545-a7d3-955f-45ac-67a643aa15ad",
+		"b01e8ce2-d8f9-de03-655e-5f7f59b2a25e"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1548416617092,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "503618ca-af43-4cbb-fd34-ceea80aa80ca",
+			"headers": "Content-Type: application/json\nAuthorization: Basic dGVzdDE6c2JAMTIz\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dGVzdDE6c2JAMTIz",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://192.168.1.119//rest/api/space",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1548422458476,
+			"name": "Get Space",
+			"description": "",
+			"collectionId": "39953387-3711-f272-1ab4-3da1c21b3f0c",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "53f9e44a-1eb6-3e23-9f3b-d1e4a6c5c30d",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "39953387-3711-f272-1ab4-3da1c21b3f0c",
+			"data": null,
+			"dataMode": "params",
+			"name": "Login auth",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1548416950347,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "60e22a64-dc2f-a1dc-af08-b8c3e581da12",
+			"headers": "Content-Type: application/json\nAuthorization: Basic dGVzdDE6c2JAMTIz\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dGVzdDE6c2JAMTIz",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://192.168.1.119/rest/api/content/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "39953387-3711-f272-1ab4-3da1c21b3f0c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Login auth",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1548417613597,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": " {\"type\":\"page\",\n \"title\":\"My Test Page\",\n \"space\":{\"key\":\"SB\"},\n \"body\":{\"storage\":{\"value\":\"<p>This is a new page</p>\",\"representation\":\"storage\"}}}"
+		},
+		{
+			"id": "6e0a2545-a7d3-955f-45ac-67a643aa15ad",
+			"headers": "Content-Type: application/json\nAuthorization: Basic dGVzdDE6c2JAMTIz\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dGVzdDE6c2JAMTIz",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://192.168.1.119//rest/api/space",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1548422494272,
+			"name": "Create Space",
+			"description": "",
+			"collectionId": "39953387-3711-f272-1ab4-3da1c21b3f0c",
+			"responses": [],
+			"rawModeData": "{\n    \"key\": \"TST\",\n    \"name\": \"Example space\",\n    \"description\": {\n        \"plain\": {\n            \"value\": \"This is an example space\",\n            \"representation\": \"plain\"\n        }\n    },\n    \"metadata\": {}\n}"
+		},
+		{
+			"id": "6f08c5a7-47e5-cf42-5304-aed6b920e99a",
+			"headers": "Content-Type: application/json\nAuthorization: Basic dGVzdDE6c2JAMTIz\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dGVzdDE6c2JAMTIz",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://192.168.1.119/rest/api/content/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "39953387-3711-f272-1ab4-3da1c21b3f0c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Search Call",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1548421958811,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": " {\"type\":\"page\",\n \"title\":\"My Test Page\",\n \"space\":{\"key\":\"SB\"},\n \"body\":{\"storage\":{\"value\":\"<p>This is a new page</p>\",\"representation\":\"storage\"}}}"
+		},
+		{
+			"id": "8cd10775-0a75-43e1-fb8f-406c6ed18fd3",
+			"headers": "Content-Type: application/json\nAuthorization: Basic dGVzdDE6c2JAMTIz\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dGVzdDE6c2JAMTIz",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://192.168.1.119/rest/api/content/search?cql=creator=currentUser()",
+			"queryParams": [
+				{
+					"key": "cql",
+					"value": "creator=currentUser()",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "39953387-3711-f272-1ab4-3da1c21b3f0c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Search Call Advance",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1548422216350,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": ""
+		},
+		{
+			"id": "b01e8ce2-d8f9-de03-655e-5f7f59b2a25e",
+			"headers": "Content-Type: application/json\nAuthorization: Basic dGVzdDE6c2JAMTIz\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dGVzdDE6c2JAMTIz",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://192.168.1.119//rest/api/space/TST",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1548422553234,
+			"name": "Update Space",
+			"description": "",
+			"collectionId": "39953387-3711-f272-1ab4-3da1c21b3f0c",
+			"responses": [],
+			"rawModeData": "{\n    \"key\": \"TST\",\n    \"name\": \"Example space, SnippetBucket.com\",\n    \"description\": {\n        \"plain\": {\n            \"value\": \"This is an example space\",\n            \"representation\": \"plain\"\n        }\n    },\n    \"metadata\": {}\n}"
+		},
+		{
+			"id": "fb6b35e4-4168-0f92-75d6-2a04113b755f",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "39953387-3711-f272-1ab4-3da1c21b3f0c",
+			"data": null,
+			"dataMode": "params",
+			"name": "Confluence API Status Test",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1548416627684,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
