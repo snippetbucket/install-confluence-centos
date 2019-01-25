@@ -122,9 +122,7 @@ be careful it also affect server.xml, because proxy and
 Contact us, info@snippetbucket.com, https://www.snippetbucket.com/
 
 
-
-
-
+<img src="https://www.snippetbucket.com/wp-content/uploads/2018/12/revision-snippetubcket-odoo-expert-top-company-offshore-1024x587.jpg" width="100%" />
 
 
 
