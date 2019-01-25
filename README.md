@@ -4,6 +4,8 @@ SnippetBucket Technolgoies
 Enable QA testing and support for confluence.
 Allow integration of ERP with Confluence with nodejs, python.
 
+<img src="https://www.snippetbucket.com/wp-content/uploads/2019/01/centos-confluence-install-snippetbucket.png" width="100%" />
+
 
 # Introduction
 installer script to install Confluence in Centos 7 with postgresql database and reverse proxy ssl setup.
@@ -62,6 +64,15 @@ SnippetBucket.com Expert advice, create confluence user as super for postgresql
 than after in case new database creation required, just sudo su confluence, than createdb confluence_db2... and so on.
 
 
+Confluence Server REST API, To enable the remote API:
+
+    1. Choose the configuration/seeting icon , then choose General Configuration
+    2. Click Further Configuration in the left-hand panel.
+    3. Click Edit.
+    4. Click the check box next to Remote API (XML-RPC & SOAP).
+    5. Click Save.
+
+
 # Master trouble fixer by snippetbucket.com
 
 In case fail to install and get isseu of MDbean or mailer issues or any crash during new instance settting up
@@ -81,6 +92,26 @@ Their default confluence home given, which infected with bad parameters so repla
     chown -R confluence.confluence /var/atlassian/application-data/confluence2
 
 Here similar you can use any number of different home location as it failed
+
+
+In my suggestion, do not change base URL.
+Fix base URL
+
+    update BANDANA 
+    set BANDANAVALUE = replace(BANDANAVALUE, 'http://192.168.1.119:8090', 'http://localhost') 
+    where BANDANACONTEXT = '_GLOBAL' 
+    and BANDANAKEY = 'atlassian.confluence.settings';
+
+
+Confluence, Is working slow ? VM or VPS or Dedicated Server !!!
+
+    Please increate RAM > 3GB and CPU core 2 minimum.
+    Becuase of postgresql, Java and other important process.
+
+
+Are you planning to change baseURL ?
+be careful it also affect server.xml, because proxy and
+
 
 
 
