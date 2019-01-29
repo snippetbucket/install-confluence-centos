@@ -40,7 +40,6 @@ Few questions will be asked about the details of the installation. The only one 
 
 Thats it!!! the script will take care of the rest of the installation.
 
-
 # tips
 
 SnippetBucket.com advice for developer to disable firwall.
@@ -73,6 +72,14 @@ Confluence Server REST API, To enable the remote API:
     3. Click Edit.
     4. Click the check box next to Remote API (XML-RPC & SOAP).
     5. Click Save.
+
+Permission of Space in Confluence
+
+    Step 1
+    <img src="https://www.snippetbucket.com/wp-content/uploads/2019/01/confluence-rest-api-user-permission-2.png"  width="100%"/>
+    Step 2
+    <img src="https://www.snippetbucket.com/wp-content/uploads/2019/01/confluence-rest-api-user-permission.png"  width="100%"/>
+
 
 
 # Master trouble fixer by snippetbucket.com
