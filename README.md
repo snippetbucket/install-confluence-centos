@@ -32,7 +32,7 @@ Create a new Centos7 (minimal installation will do) installation. Login with `ro
     sudo -y update
     sudo yum install git nano
     cd /opt/
-    sudo git clone https://github.com/sjoulaei/install-confluence-centos.git
+    sudo git clone git@github.com:snippetbucket/install-confluence-centos.git
     cd install-confluence-centos
     sudo ./install-confluence.sh
 
@@ -41,6 +41,11 @@ Few questions will be asked about the details of the installation. The only one 
 Thats it!!! the script will take care of the rest of the installation.
 
 # tips
+
+API Docs:
+
+    https://docs.atlassian.com/ConfluenceServer/rest/6.13.0/#api/
+    For more contact us info@snippetbucket.com
 
 SnippetBucket.com advice for developer to disable firwall.
 
