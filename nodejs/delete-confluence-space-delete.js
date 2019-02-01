@@ -6,15 +6,19 @@
 
 */
 const https = require('https');
+const ex = require('./sb-config.js');
+const cnf = ex.config();
+
+
 /**
  * HOW TO Make an HTTP Call - GET
  */
 // options for GET
 
-var btoken = Buffer("test1"+':'+"sb@123").toString('base64');
+var btoken = Buffer(cnf.user+':'+cnf.password).toString('base64');
 
 var optionsget = {
-    host: '192.168.1.119',
+    host: cnf.host,
     proto: 'https',
     port : 443,
     path: '/rest/api/space/tta',
