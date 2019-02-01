@@ -13,5 +13,19 @@ module.exports = {
             'user': 'test1',
             'password': 'sb@123',
           };
-    }
+    },
+    config2: function(){
+        return {
+            'host': '192.168.1.119',
+            'user': 'test1',
+            'password': 'sb@123',
+          };
+    },
+    config3: function(){
+        return {
+            'host': '192.168.1.119',
+            'user': 'test1',
+            'password': 'sb@123',
+          };
+    },
 }
